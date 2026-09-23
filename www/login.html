@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - Simple Web Server</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #edf3f8; margin: 0; }
+    main { width: min(420px, calc(100% - 48px)); margin: 80px auto; padding: 32px;
+           background: white; border-radius: 12px; box-shadow: 0 8px 30px #17324d22; }
+    h1 { color: #17324d; }
+    label { display: block; margin-top: 16px; font-weight: bold; }
+    input { box-sizing: border-box; width: 100%; padding: 10px; margin-top: 6px; }
+    button { width: 100%; margin-top: 24px; padding: 11px; border: 0; border-radius: 7px;
+             background: #1769aa; color: white; font-weight: bold; cursor: pointer; }
+    .hint { color: #526579; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Cookie Authentication</h1>
+    <p class="hint">Demo account: admin / 1234</p>
+    <form method="POST" action="/login">
+      <label for="username">Username</label>
+      <input id="username" name="username" required>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" required>
+      <button type="submit">Login</button>
+    </form>
+  </main>
+</body>
+</html>
