@@ -1,8 +1,10 @@
 # Python HTTP Server（Python HTTP 伺服器）
 
-A course project that implements a small HTTP/1.0 and HTTP/1.1 web server with Python TCP sockets. It parses requests, creates responses, and handles files without a web framework.
+A course project that implements a small HTTP/1.0 and HTTP/1.1 web server with Python TCP sockets.
+It parses requests, creates responses, and handles files without a web framework.
 
-這是使用 Python TCP Socket 實作的課堂專題，支援部分 HTTP/1.0 與 HTTP/1.1 功能。程式自行解析請求、組成回應並處理檔案，沒有使用現成的網頁框架。
+這是使用 Python TCP Socket 實作的計算機網路課堂final project，支援部分 HTTP/1.0 與 HTTP/1.1 功能。
+程式自行解析請求、組成回應並處理檔案，沒有使用現成的網頁框架。
 
 ## Features（功能）
 
